@@ -8,5 +8,5 @@ greeting(usertNane);
 
 
 function greeting(anytNane) {
-    console.log(`Welcome ${anytNane}!`)
+    console.log(`Welcome ${anytNane}!`);
 }
