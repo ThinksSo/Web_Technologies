@@ -8,5 +8,6 @@
 // градусы Фаренгейта = (9 / 5) * градусы Цельсия + 32
 // Примечания: Пользователь всегда вводит корректное число."
 
-let degreesC = parseInt(prompt("Enter the temperature in degrees Celsius"));
-alert(`${degreesC}°C = ${Math.round(((9 / 5) * degreesC + 32) * 100) / 100} °F`);
+let degreesC = Number.parseFloat(prompt("Enter the temperature in degrees Celsius"));
+const degreesF = Math.round(((9 / 5) * degreesC + 32) * 100) / 100;
+alert(`${degreesC}°C = ${degreesF} °F`);

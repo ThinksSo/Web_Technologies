@@ -3,8 +3,8 @@
 // используя переданное имя, в консоль.
 // Необходимо у пользователя запросить имя и вызвать функцию greeting, передав туда данное значение
 
-const usertNane = prompt("Please enter your name:");
-greeting(usertNane);
+const userNane = prompt("Please enter your name:");
+greeting(userNane);
 
 
 function greeting(anytNane) {
